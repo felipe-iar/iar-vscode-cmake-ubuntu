@@ -186,7 +186,7 @@ Create this header file with the following contents:
 ```
 > __Note__ Keywords available as per IAR C/C++ Compiler for Arm 9.40.1
 
-### `~/.config/Code/IAR/settings.json`
+### `~/.config/Code/User/settings.json`
 The following JSON file configures Microsoft Intellisense to work with the IAR C/C++ Compiler for Arm:
 ```json
 {
