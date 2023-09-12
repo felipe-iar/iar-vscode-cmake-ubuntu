@@ -44,17 +44,18 @@ Install the required software:
   
 - Create a `<proj-dir>/main.c` source file with the following content:
 ```c
-#include <stdbool.h>
+#include <intrinsics.h>
 #include <stdio.h>
 #include <stdint.h>
 
-__attribute__((used)) uint_fast8_t counter = 0;
+__root uint_fast8_t counter = 0;
 
 void main() {
    while (counter < 10) {
      printf("Hello world! %u\n", counter);
+     ++counter;
    }
-   while (true) {
+   for(;;) {
       ++counter;
    }
 }
