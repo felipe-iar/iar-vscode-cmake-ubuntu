@@ -99,7 +99,7 @@ target_link_options(hello PRIVATE
 ```json
 [
   {
-    "name": "IAR BXARM",
+    "name": "IAR",
     "compilers": {
       "C": "/opt/iarsystems/bxarm/arm/bin/iccarm"
     },
@@ -117,7 +117,7 @@ target_link_options(hello PRIVATE
 ### Building the project
 - Invoke the palette (<kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>P</kbd>).
    - Perform __CMake: Configure__.
-   - Select __IAR BXARM__ from the drop-down list.
+   - Select __IAR__ from the drop-down list.
 - Invoke the palette 
    - Perform __CMake: Build__.
 
